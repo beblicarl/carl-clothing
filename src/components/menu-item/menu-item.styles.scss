@@ -8,17 +8,8 @@
   border: 1px solid black;
   margin: 0 7.5px 15px;
   overflow: hidden;
+  font-family: "Open Sans Condensed";
 
-  &.large {
-    height: 380px;
-  }
-  &:first-child {
-    margin-right: 7.5px;
-  }
-
-  &:last-child {
-    margin-left: 7.5px;
-  }
   &:hover {
     cursor: pointer;
 
@@ -32,12 +23,24 @@
     }
   }
 
+  &.large {
+    height: 380px;
+  }
   .background-image {
     width: 100%;
     height: 100%;
     background-position: center;
     background-size: cover;
   }
+
+  &:first-child {
+    margin-right: 7.5px;
+  }
+
+  &:last-child {
+    margin-left: 7.5px;
+  }
+
   .content {
     height: 90px;
     padding: 0 25px;
@@ -46,9 +49,8 @@
     align-items: center;
     justify-content: center;
     border: 1px solid black;
-    background-color: #fff;
-    opacity: 0.7;
     position: absolute;
+    background-color: #fff;
 
     .title {
       font-weight: bold;
