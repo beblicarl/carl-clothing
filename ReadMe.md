@@ -1,4 +1,3 @@
-# carl-clothing
 
 # Carl Clothing
 
